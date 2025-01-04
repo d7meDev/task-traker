@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer>
       <p>Copyright &copy; {new Date().getUTCFullYear()}</p>
-      <Link to="/about">About</Link>
+      <Link to="https://d7medev.github.io/task-traker/about">About</Link>
     
     </footer>
   )

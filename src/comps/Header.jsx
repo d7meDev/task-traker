@@ -9,7 +9,7 @@ const Header = ({showAddTask,showAddTaskButtonToggle}) => {
     <header className="header">
         <h1>Task Traker</h1>
 
-        {location.pathname==="/"?<Button text={showAddTask? "Close":"Add"} color={showAddTask? "red":"green"} func={showAddTaskButtonToggle}></Button>:""}
+        {location.pathname==="https://d7medev.github.io/task-traker/"?<Button text={showAddTask? "Close":"Add"} color={showAddTask? "red":"green"} func={showAddTaskButtonToggle}></Button>:""}
         
     </header>
   )
