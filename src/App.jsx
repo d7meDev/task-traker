@@ -3,7 +3,7 @@ import Footer from "./comps/Footer";
 import Tasks from "./comps/Tasks";
 import AddTask from "./comps/AddTask";
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { HashRouter  as Router,Routes, Route } from "react-router-dom";
 import About from "./comps/About";
 
 function App() {

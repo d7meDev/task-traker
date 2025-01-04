@@ -43,5 +43,6 @@
     "gh-pages": "^6.3.0",
     "json-server": "^1.0.0-beta.3"
   },
-  "homepage": "https://d7medev.github.io/task-traker/"
+  "homepage": "https://d7medev.github.io/task-traker"
+
 }
