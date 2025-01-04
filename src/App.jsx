@@ -121,7 +121,7 @@ function App() {
       />
       
        <Routes>
-        <Route path="https://d7medev.github.io/task-traker/" element = {<>{showAddTask ? <AddTask onAdd={addTask} /> : ""}
+        <Route path="/" element = {<>{showAddTask ? <AddTask onAdd={addTask} /> : ""}
       {tasks.length === 0 ? (
         "No Tasks To Show"
       ) : (
@@ -134,7 +134,7 @@ function App() {
       )}
       <Footer/>
       </>}/>
-       <Route path="/https://d7medev.github.io/task-traker/about" element= {<About/>}/>
+       <Route path="/about" element= {<About/>}/>
        </Routes>
        
       
